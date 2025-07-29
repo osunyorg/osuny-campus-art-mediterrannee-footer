@@ -1,6 +1,18 @@
-footer#document-footer
+footer#document-footer, .campus-sub-footer
+    .footer__presentation
+        padding-top: var(--grid-gutter)
+        padding-bottom: var(--grid-gutter)
+        display: block
+        img
+            margin-bottom: $spacing-3
+        p
+            @include small
+            max-width: columns(6)
+            a
+                display: block
     .footer__supports
         ul
+            @include list-reset
             align-items: flex-start
             display: flex
             gap: $spacing-4
@@ -10,3 +22,7 @@ footer#document-footer
                 margin-top: 0
             @include media-breakpoint-down(desktop)
                 margin-top: space(8)
+
+.campus-sub-footer
+    background: var(--color-background)
+    padding-bottom: var(--grid-gutter)
