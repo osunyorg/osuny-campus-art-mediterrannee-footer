@@ -7,7 +7,8 @@ footer#document-footer, .campus-sub-footer
             margin-bottom: $spacing-3
         p
             @include small
-            max-width: columns(6)
+            @include media-breakpoint-up(desktop)
+                max-width: columns(6)
             a
                 display: block
     .footer__supports
