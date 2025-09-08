@@ -1,11 +1,13 @@
 osuny-campus-footer:
   text: >- 
     <a href="https://www.campusartmediterranee.fr/" rel="noopener noreferrer" target="_blank" title="Site du Campus art Méditerranée - Lien externe">Campus art Méditerranée</a> est un établissement public de coopération culturelle agrée par le ministère de la Culture et soutenu par la ville de Marseille et le ministère de la Culture.
+    
+
+    L'établissement compte trois entités :
 
   links: >-
     <ul>
-      <li><a href="https://www.campusartmediterranee.fr/" rel="noopener noreferrer" target="_blank" title="Site du Campus art Méditerranée - Lien externe">Le Campus art Méditerranée</a></li>
       <li><a href="https://www.beauxartsdemarseille.fr/" target="_blank" rel="noreferrer" title="Site des Beaux Arts de Marseille - lien externe">Les Beaux Arts de Marseille</a></li>
       <li><a href="https://www.conservatoiredemarseille.fr/" rel="noopener noreferrer" target="_blank" title="Site du Conservatoire Pierre Barbizet - Lien externe">Le Conservatoire Pierre Barbizet</a></li>
-      <li><a href="https://www.campusartmediterranee.fr/letablissement/lifamm/" rel="noopener noreferrer" target="_blank" title="L’Institut de formation artistique Marseille Méditerranée (IFAMM) - Lien externe">L’Institut de formation artistique Marseille Méditerranée (IFAMM).</a></li>
+      <li><a href="https://www.campusartmediterranee.fr/letablissement/lifamm/" rel="noopener noreferrer" target="_blank" title="L’Institut de formation artistique Marseille Méditerranée (IFAMM) - Lien externe">L’Institut de formation artistique Marseille Méditerranée (IFAMM)</a></li>
     </ul>
