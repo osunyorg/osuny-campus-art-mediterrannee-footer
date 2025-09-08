@@ -1,0 +1,11 @@
+{{ $ecosystem_list := partial "GetMenu" "ecosysteme-footer" }}
+{{ if $ecosystem_list }}
+  {{ partial "commons/menu.html" (dict
+      "kind" "ecosysteme-footer"
+      "level" 1
+      "context" .
+      "class" "ecosystem-cta"
+    )}}
+{{ else }}
+  {{ i18n "osuny-campus-footer.links" | markdownify }}
+{{ end }}
